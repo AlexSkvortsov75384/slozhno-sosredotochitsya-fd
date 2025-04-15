@@ -4,13 +4,45 @@
   переключая тему
 */
 
+
+
+
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --border-color: #353430;
+  --link-color: #353430;
+  --article-color: #353430;
+  --text-color: #353430;
+  --text-color-primary: #FFC2E6;
+  --text-color-secondary: #FFC2E6;
+  --text-color-tertiary: #353430;
+  --text-color-emphasis: #FF0070;
+  --background-color: #fff1f7;
+  --background-color-primary: #FF8DCB;
+  --background-color-secondary: #FF0070;
+  --background-image: url(../images/cover-image-light.png);
+  --decorated-visible: hidden;
+  --rec-visible: hidden;
+  --border-color: #353430;
+  --border-color-opacity: rgba(50, 49, 45, 0.4);
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+@media (prefers-color-scheme: light) {
+:root {
+  --border-color: #353430;
+  --link-color: #353430;
+  --article-color: #353430;
+  --text-color: #353430;
+  --text-color-primary: #FFC2E6;
+  --text-color-secondary: #FFC2E6;
+  --text-color-tertiary: #353430;
+  --text-color-emphasis: #FF0070;
+  --background-color: #fff1f7;
+  --background-color-primary: #FF8DCB;
+  --background-color-secondary: #FF0070;
+  --background-image: url(../images/cover-image-light.png);
+  --decorated-visible: hidden;
+  --rec-visible: hidden;
+  --border-color: #353430;
+  --border-color-opacity: rgba(50, 49, 45, 0.4);
+  }
 }

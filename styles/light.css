@@ -1,24 +1,15 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
-
-
-
 :root.theme-light {
   --border-color: #353430;
   --link-color: #353430;
   --article-color: #353430;
   --text-color: #353430;
-  --text-color-primary: #FFC2E6;
-  --text-color-secondary: #FFC2E6;
+  --text-color-primary: #ffc2e6;
+  --text-color-secondary: #ffc2e6;
   --text-color-tertiary: #353430;
-  --text-color-emphasis: #FF0070;
+  --text-color-emphasis: #ff0070;
   --background-color: #fff1f7;
-  --background-color-primary: #FF8DCB;
-  --background-color-secondary: #FF0070;
+  --background-color-primary: #ff8dcb;
+  --background-color-secondary: #ff0070;
   --background-image: url(../images/cover-image-light.png);
   --decorated-visible: hidden;
   --rec-visible: hidden;
@@ -27,22 +18,22 @@
 }
 
 @media (prefers-color-scheme: light) {
-:root {
-  --border-color: #353430;
-  --link-color: #353430;
-  --article-color: #353430;
-  --text-color: #353430;
-  --text-color-primary: #FFC2E6;
-  --text-color-secondary: #FFC2E6;
-  --text-color-tertiary: #353430;
-  --text-color-emphasis: #FF0070;
-  --background-color: #fff1f7;
-  --background-color-primary: #FF8DCB;
-  --background-color-secondary: #FF0070;
-  --background-image: url(../images/cover-image-light.png);
-  --decorated-visible: hidden;
-  --rec-visible: hidden;
-  --border-color: #353430;
-  --border-color-opacity: rgba(50, 49, 45, 0.4);
+  :root {
+    --border-color: #353430;
+    --link-color: #353430;
+    --article-color: #353430;
+    --text-color: #353430;
+    --text-color-primary: #ffc2e6;
+    --text-color-secondary: #ffc2e6;
+    --text-color-tertiary: #353430;
+    --text-color-emphasis: #ff0070;
+    --background-color: #fff1f7;
+    --background-color-primary: #ff8dcb;
+    --background-color-secondary: #ff0070;
+    --background-image: url(../images/cover-image-light.png);
+    --decorated-visible: hidden;
+    --rec-visible: hidden;
+    --border-color: #353430;
+    --border-color-opacity: rgba(50, 49, 45, 0.4);
   }
 }

@@ -113,12 +113,6 @@
   text-shadow: 2px 2px 0 var(--background-color-primary);
 }
 
-.article__link {
-  color: var(--link-color);
-  text-shadow: 2px 2px 0 var(--background-color-primary);
-  text-decoration: none;
-}
-
 .article__link:hover {
   border-bottom: 1px solid var(--border-color);
 }

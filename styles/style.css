@@ -63,9 +63,6 @@
   text-align: center;
   color: var(--text-color-tertiary);
   text-transform: lowercase;
-}
-
-.header__theme-menu-button {
   background-color: transparent;
   border: 0;
 }
@@ -103,6 +100,17 @@
   line-height: 130px;
   text-align: left;
   margin-inline-start: -20px;
+}
+
+
+.article__link {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
+  font-size: 18px;
+  text-decoration-skip-ink: none;
+  text-decoration: none;
+  color: var(--link-color);
+  text-shadow: 2px 2px 0 var(--background-color-primary);
 }
 
 .article__link {
@@ -294,14 +302,6 @@
   line-height: 83%;
   color: var(--text-color-primary);
   text-shadow: 2px 2px 0 var(--background-color-primary);
-}
-
-.article__link {
-  font-family: var(--font-family);
-  font-weight: var(--font-weight-normal);
-  font-size: 18px;
-  text-decoration-skip-ink: none;
-  text-decoration: none;
 }
 
 @media (max-width: 768px) {

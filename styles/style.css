@@ -7,10 +7,6 @@
   font-family: var(--font-family), monospace;
 }
 
-.section__wrapper {
-  position: relative;
-}
-
 .header {
   padding: 20px;
   block-size: 100vh;

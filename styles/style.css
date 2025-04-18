@@ -291,9 +291,6 @@
 }
 
 @media (max-width: 768px) {
-  .header {
-    min-block-size: 768px;
-  }
 
   .header__theme-menu-list {
     grid-template-columns: 1fr;
@@ -328,15 +325,10 @@
   .footer_title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
-
-  .footer {
-    min-block-size: 1024px;
-  }
 }
 
 @media (max-width: 620px) {
   .header {
-    min-block-size: 620px;
     padding: 10px;
     margin-block-end: 40px;
     display: grid;
@@ -418,10 +410,6 @@
 
   .books {
     order: 4;
-  }
-
-  .footer {
-    min-block-size: 668px;
   }
 
   .footer_title {

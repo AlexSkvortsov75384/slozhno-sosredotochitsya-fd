@@ -1,5 +1,7 @@
 :root.theme-light {
-  --border-color: #353430;
+  --border-menu-transparency:rgba(50, 49, 45, 0.4);
+  --border-menu-color:#353430;
+  --background-color: #fff1f7;
   --link-color: #353430;
   --article-color: #353430;
   --text-color: #353430;
@@ -19,7 +21,8 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --border-color: #353430;
+    --border-menu-transparency:rgba(50, 49, 45, 0.4);
+    --border-menu-color:#353430;
     --link-color: #353430;
     --article-color: #353430;
     --text-color: #353430;

@@ -1,5 +1,7 @@
 :root {
-  --border-color: #f1b2ce;
+  --border-menu-transparency:rgba(255,0,112,0.4);
+  --border-menu-color:#FF0070;
+  --background-color: #000028;
   --article-color: #000028;
   --text-color: #f1b2ce;
   --text-color-primary: #db00ff;
@@ -12,6 +14,6 @@
   --font-family: "IBM Plex Mono", monospace;
   --font-weight-bold: 700;
   --font-weight-normal: 400;
-  --border-color: #ff0070;
+  --border-color: #f1b2ce;
   --border-color-opacity: rgba(255, 0, 112, 0.4);
 }

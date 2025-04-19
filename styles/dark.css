@@ -1,4 +1,7 @@
 :root.theme-dark {
+  --border-menu-transparency:rgba(255,0,112,0.4);
+  --border-menu-color:#FF0070;
+  --background-color: #000028;
   --link-color: #f1b2ce;
   --article-color: #000028;
   --text-color: #f1b2ce;
